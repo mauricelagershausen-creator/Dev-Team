@@ -84,6 +84,10 @@ If no backend needed:
 ## Checklist
 See [checklist.md](checklist.md) for the full implementation checklist.
 
+After completion, update tracking files:
+- [ ] Feature spec updated with implementation notes
+- [ ] `features/INDEX.md` status updated to "In Progress"
+
 ## Git Commit
 ```
 feat(PROJ-X): Implement frontend for [feature name]

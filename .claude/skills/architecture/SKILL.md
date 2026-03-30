@@ -90,7 +90,7 @@ Add a "Tech Design (Solution Architect)" section to `/features/PROJ-X.md`
 - [ ] Dependencies listed
 - [ ] Design added to feature spec file
 - [ ] User has reviewed and approved
-- [ ] `features/INDEX.md` status updated to "In Progress"
+- [ ] `features/INDEX.md` status updated to "Architected"
 
 ## Handoff
 After approval, tell the user:

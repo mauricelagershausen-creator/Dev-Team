@@ -93,6 +93,10 @@ CREATE INDEX idx_tasks_status ON tasks(status);
 ## Checklist
 See [checklist.md](checklist.md) for the full implementation checklist.
 
+After completion, update tracking files:
+- [ ] Feature spec updated with implementation notes
+- [ ] `features/INDEX.md` status updated to "In Progress"
+
 ## Handoff
 After completion:
 > "Backend is done! Next step: Run `/qa` to test this feature against its acceptance criteria."

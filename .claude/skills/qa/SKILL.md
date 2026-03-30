@@ -101,14 +101,15 @@ If your context was compacted mid-task:
 - [ ] QA section added to feature spec file
 - [ ] User has reviewed results and prioritized bugs
 - [ ] Production-ready decision made
-- [ ] `features/INDEX.md` status updated to "In Review"
+- [ ] `features/INDEX.md` status updated to "In Review" (at QA start)
+- [ ] `features/INDEX.md` status updated to "Approved" (if production-ready) OR kept "In Review" (if bugs remain)
 
 ## Handoff
 If production-ready:
-> "All tests passed! Next step: Run `/deploy` to deploy this feature to production."
+> "All tests passed! Status updated to **Approved**. Next step: Run `/deploy` to deploy this feature to production."
 
 If bugs found:
-> "Found [N] bugs ([severity breakdown]). The developer needs to fix these before deployment. After fixes, run `/qa` again."
+> "Found [N] bugs ([severity breakdown]). Status remains **In Review**. The developer needs to fix these before deployment. After fixes, run `/qa` again."
 
 ## Git Commit
 ```
